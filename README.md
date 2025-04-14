@@ -21,7 +21,7 @@ A comprehensive pipeline for panoptic segmentation and classification of nuclei 
 
 The high-level architecture of the full segmentation-classification pipeline is shown below:
 
-<img src="https://raw.githubusercontent.com/ahmedembeddedxx/PanCaKES/main/imgs/bird eye architecture.png" alt="Bird Eye Architecture" width="700"/>
+<img src="https://raw.githubusercontent.com/ahmedembeddedxx/PanCaKES/main/imgs/bird eye architecture.png" alt="Bird Eye Architecture" width="800"/>
 
 ---
 
@@ -33,9 +33,9 @@ Below are sample outputs at different epochs during GAN training. These reflect 
 
 | Epoch         | Output                                                                                                                  |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Epoch 100** | <img src="https://raw.githubusercontent.com/ahmedembeddedxx/PanCaKES/main/imgs/ep100.png" alt="Epoch 100" width="400"/> |
-| **Epoch 200** | <img src="https://raw.githubusercontent.com/ahmedembeddedxx/PanCaKES/main/imgs/ep200.png" alt="Epoch 200" width="400"/> |
-| **Epoch 300** | <img src="https://raw.githubusercontent.com/ahmedembeddedxx/PanCaKES/main/imgs/ep300.png" alt="Epoch 300" width="400"/> |
+| **Epoch 100** | <img src="https://raw.githubusercontent.com/ahmedembeddedxx/PanCaKES/main/imgs/ep100.png" alt="Epoch 100" width="600"/> |
+| **Epoch 200** | <img src="https://raw.githubusercontent.com/ahmedembeddedxx/PanCaKES/main/imgs/ep200.png" alt="Epoch 200" width="600"/> |
+| **Epoch 300** | <img src="https://raw.githubusercontent.com/ahmedembeddedxx/PanCaKES/main/imgs/ep300.png" alt="Epoch 300" width="600"/> |
 
 ---
 
@@ -47,14 +47,14 @@ These are samples generated using the trained GAN model for augmentation:
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
-- ⚡ End-to-end segmentation & classification
-- 🧬 GAN-based synthetic data augmentation
-- 🏗️ Finetuning of **SAM**, **Segment-Transformer**, **YOLOSeg**
-- 📊 Extensive visual analytics and metrics
-- 📂 COCO ↔ YOLO format conversion scripts
-- 📁 Organized cookbooks for reproducibility
+- End-to-end segmentation & classification
+- GAN-based synthetic data augmentation
+- Finetuning of **SAM**, **Segment-Transformer**, **YOLOSeg**
+- Extensive visual analytics and metrics
+- COCO ↔ YOLO format conversion scripts
+- Organized cookbooks for reproducibility
 
 ---
 
@@ -64,7 +64,7 @@ These are samples generated using the trained GAN model for augmentation:
 ├── cookbooks/                  # All model training + EDA notebooks
 ├── data/                       # Dataset folders with folds and masks
 ├── docs/                       # Project proposal and deliverables
-├── https://raw.githubusercontent.com/ahmedembeddedxx/PanCaKES/main/imgs/                       # Visual outputs and result images
+├── imgs/                       # Visual outputs and result images
 ├── results/                    # Metrics and logs
 ├── scripts/                    # Format conversion & data generation
 ├── README.md
@@ -132,9 +132,9 @@ _Or_ manually include major packages:
 
 Refer to the following PDFs in the `docs/` directory:
 
-- 📝 `proposal.pdf`: Project background and goals
-- 📌 `deliverable-i.pdf`: Phase I progress and results
-- 📌 `deliverable-ii.pdf`: Final results and summary
+- `proposal.pdf`: Project background and goals
+- `deliverable-i.pdf`: Phase I progress and results
+- `deliverable-ii.pdf`: Final results and summary
 
 ---
 
