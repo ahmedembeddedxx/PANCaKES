@@ -1,0 +1,39 @@
+# Core ML/DL
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0  # YOLOSeg support
+
+# Hugging Face Transformers (for Segment-Transformer, SAM)
+transformers>=4.28.0
+datasets
+sentencepiece  # if using tokenizer-based models
+
+# Image processing & visualization
+opencv-python
+Pillow
+matplotlib
+seaborn
+scikit-image
+imageio
+
+# Data handling
+numpy
+pandas
+tqdm
+pycocotools
+
+# Jupyter and notebooks
+jupyter
+notebook
+ipykernel
+
+# Utility
+scikit-learn
+albumentations
+imgaug
+einops
+requests
+
+# Optional (GAN/Diffusion support)
+torchvision
+diffusers  # if you're using diffusion models
